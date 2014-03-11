@@ -1,3 +1,21 @@
+body {
+	background-color: #FBF;
+	<-- use background-size: cover; if there's an image-->
+	font-family: helvetica;
+}
+
 h1 {
 	color: Red;
+	font-size: 34px;
+	text-align: center;
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 36px;
+    padding: 5px;
+  }
+  li {
+    padding: 5px;
+    display: block;
+  }
 }
