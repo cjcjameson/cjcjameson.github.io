@@ -1,13 +1,53 @@
 body {
-	background-color: #FBF;
-	<-- use background-size: cover; if there's an image-->
-	font-family: helvetica;
+	background-color: #BFB;
+	font-family: 'Droid Sans', sans-serif;
+  text-align: center;
 }
 
 h1 {
-	color: Red;
+	color: #282;
 	font-size: 34px;
-	text-align: center;
+}
+ul {
+  margin: 0 auto;
+  padding: 8px;
+  max-width: 600px;
+  background: #141;
+  color: white;
+}
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+a {
+  color: white;
+}
+.external {
+  color: blue;
+  font-style: italic;
+  font-size: 28px;
+}
+p {
+  line-height: 24px;
+  max-width: 600px;
+  margin: 10px auto;
+}
+img {
+  border-radius: 10px;
+  border-color: white;
+  border-width: 5px;
+  margin: 10px;
+  padding: 3px;
+}
+figure {
+  margin-top: 0px;
+}
+div {
+  background: #dd9;
+  max-width: 1000px;
+  max-height: 500px;
+  padding: 20px;
+  margin: 20px auto;
 }
 @media (max-width: 500px) {
   h1 {

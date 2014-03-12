@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<head>
+	<title>Snoozr</title>
+	<link href="/normalize.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+	<link href="style.css" rel="stylesheet">
+
+	<script type="text/javascript">
+		var carouselCount = 0
+		$('.rightButton').click( function() {
+			carouselCount+=1;
+			$('.firstImage').css("width:200px");
+			$('.secondImage').css('width:500px');
+		})
+	</script>
+
+</head>
+
+<body>
+	<h1>C.J. Jameson</h1>
+	<ul>
+	  <li><a href="index.html">Home</a></li>
+      <li><a href="bridge.html">Bridge Lessons</a></li>
+      <li><a href="snoozr.html">App Idea: "Snoozr"</a></li>
+      <li><a href="engaged.html">Engaged!</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <p>I want to build an app that helps people track their sleep health by counting how much they hit the snooze button<br />
+    Here are some mock-ups, courtesy Carrie Beyer
+    </p>
+    
+    <button style="float:left;height:100px" class="leftButton">Scroll Left</button>
+    <img src="http://i.imgur.com/yIn7jHl.png" title="Hosted by imgur.com" width="400px" class="firstImage" />
+    <img src="http://i.imgur.com/aTnK7cs.jpg?1" title="Hosted by imgur.com" width="400px" class="secondImage"/>
+    <button style="float:right;height:100px" class="rightButton">Scroll Right</button>
+    <br />
+    copyright 2014 C.J. Jameson
+</body>
