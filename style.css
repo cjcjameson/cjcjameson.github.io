@@ -22,6 +22,9 @@ li {
 a {
   color: white;
 }
+a.bridge {
+  color: blue;
+}
 .external {
   color: blue;
   font-style: italic;
