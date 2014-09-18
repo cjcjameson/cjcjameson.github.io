@@ -1,6 +1,4 @@
-Hello world! This was my first git repo and first website I created from scratch in early 2014
-
-Moving everything over to my github.io place (9/18/14)
+Hello world! This is a revision of my first website of early 2014. Look forward to an overhaul.
 
 C.J. Jameson
 cjcjameson at gmail dot com
